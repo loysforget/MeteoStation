@@ -12,7 +12,7 @@
 
 static const char TAG[] = "main";
 static uint8_t temperature = 0u;
-static uint8_t humidity = 0u;
+static uint8_t humidity = 0u; //test
 
 void app_main(void) {
     dht11_initialisation(DHT11_GPIO_NUM);
